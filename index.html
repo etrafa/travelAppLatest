@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Landing Page</title>
+    <link
+      rel="shortcut icon"
+      href="./images/plane-icon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <!------------- HEADER SECTIONS STARTS HERE --------->
+    <section id="header">
+      <div class="header__section">
+        <h2>Tour<span style="color: #3f4579">.els</span></h2>
+        <div class="navbar" id="navbar">
+          <a href="#">Home</a>
+          <a href="#popular">Destinations</a>
+          <a href="#download">Download</a>
+          <a href="#footer">About Us</a>
+        </div>
+        <div class="login__options__buttons">
+          <button class="log__in__button">Log in</button>
+          <button class="sign__up__button">Sign up</button>
+        </div>
+        <div class="nav__button">
+          <i class="material-icons nav-button">apps</i>
+        </div>
+      </div>
+    </section>
+
+    <div class="hamburger-menu">
+      <div class="navbar-items">
+        <a href="#">Home</a>
+        <a href="#popular">Destinations</a>
+        <a href="#download">Download</a>
+        <a href="#footer">About Us</a>
+      </div>
+      <div class="hamburger__options">
+        <button class="hamburger__logIn">Log in</button>
+        <button class="hamburger__signUp">Sign up</button>
+      </div>
+    </div>
+
+    <!------------- HEADER SECTIONS ENDS HERE --------->
+
+    <!------------- BANNER SECTIONS STARTS HERE --------->
+    <section id="banner">
+      <div class="banner__section">
+        <div class="banner__texts">
+          <p>All you need is Tourels</p>
+          <h1>Explore Beautiful Places</h1>
+        </div>
+        <img src="./images/banner_image.png" alt="banner_image_eiffel_tower" />
+        <div class="select__options__container">
+          <div class="city">
+            <i class="material-icons">place</i>
+            <span>City</span> <br />
+            <input type="text" placeholder="Where would you like to go?" />
+          </div>
+          <div class="date">
+            <i class="material-icons">event</i>
+            <span>Date</span> <br />
+            <input type="date" name="date" id="date" />
+          </div>
+          <div class="passengers">
+            <i class="material-icons">people</i>
+            <span>Passengers</span><br />
+            <select name="passenger" id="passenger">
+              <option value="1">1</option>
+              <option value="1">2</option>
+              <option value="1">3</option>
+              <option value="1">4</option>
+              <option value="1">5</option>
+            </select>
+          </div>
+          <button class="search__button">
+            <span class="material-icons">search</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!------------- BANNER SECTIONS ENDS HERE --------->
+
+    <!-- ----------- POPULAR SECTION STARTS HERE --------->
+    <section id="popular">
+      <div class="popular__section">
+        <h4>Popular Destinations</h4>
+        <div class="popular__section__shape1"></div>
+        <div class="popular__section__shape2"></div>
+        <div class="popular__section__shape3"></div>
+        <div class="popular__cities">
+          <a href="https://bit.ly/3FroBpf" target="_blank">New York</a>
+          <a href="https://bit.ly/3K9aiZW" target="_blank">Frankfurt</a>
+          <a href="https://bit.ly/3FqKjd4" target="_blank">Kansas City</a>
+          <a href="https://bit.ly/3tvef5g" target="_blank">Paris</a>
+          <a href="https://bit.ly/3qouEGQ" target="_blank">Tokyo</a>
+          <a href="https://bit.ly/3trq5NG" target="_blank">Mexico City</a>
+          <a href="https://bit.ly/3zVl3ui" target="_blank">Istanbul</a>
+          <a href="https://bit.ly/3zYy9H9" target="_blank">Amsterdam</a>
+          <a href="https://bit.ly/3fqtEf3" target="_blank">Prague</a>
+          <a href="https://bit.ly/3qptOte" target="_blank">Athen</a>
+        </div>
+      </div>
+    </section>
+    <!------------- POPULAR SECTION ENDS HERE ------- -->
+
+    <!------------- CATEGORIES SECTION STARTS HERE --------->
+    <section id="categories">
+      <div class="categories__section">
+        <h1>Categories</h1>
+        <p>Don't know where to go? Let us help you!</p>
+        <div class="categories__cities">
+          <a
+            href="https://www.veranda.com/travel/g1579/best-beaches-in-the-world/"
+            target="_blank"
+            ><div class="categories__city city1">Beach</div></a
+          >
+          <a
+            href="https://www.tripstodiscover.com/best-jungle-lodges-in-the-world/"
+            target="_blank"
+            ><div class="categories__city city2">Jungle</div></a
+          >
+          <a
+            href="https://www.veranda.com/travel/g36674338/beautiful-mountains/"
+            target="_blank"
+            ><div class="categories__city city3">Mountain</div></a
+          >
+          <a
+            href="https://www.originaltravel.co.uk/travel-blog/top-12-most-beautiful-deserts-in-the-world"
+            target="_blank"
+            ><div class="categories__city city4">Desert</div></a
+          >
+          <a
+            href="https://www.veranda.com/travel/g34338651/beautiful-temples-in-the-world/"
+            target="_blank"
+            target="_blank"
+            ><div class="categories__city city5">Temple</div></a
+          >
+          <a
+            href="https://www.delicious.com.au/travel/international/gallery/100-cities-deserve-place-travel-bucket-list/o4lzlr69"
+            target="_blank"
+            ><div class="categories__city city6">Town</div></a
+          >
+        </div>
+      </div>
+    </section>
+    <!------------- CATEGORIES SECTION ENDS HERE --------->
+
+    <!------------- OUR OFFER SECTION STARTS HERE --------->
+    <section id="our__offers">
+      <div class="our__offers__section">
+        <h1>Our Offers For You</h1>
+        <p>
+          Discover our offers and choose your destination according to your mood
+        </p>
+        <div class="destination__container">
+          <div class="destination__city">
+            <img src="./newImages/united-states.jpg" alt="united__states" />
+            <h4>United States</h4>
+            <p>Book flights to United States price starting $149.</p>
+            <div class="destination__price">
+              <div>
+                <i class="material-icons">place</i>
+                <span>United States</span>
+              </div>
+              <div class="">
+                <i class="material-icons destination__icon">paid</i>
+                <span>$149</span>
+              </div>
+            </div>
+            <a href="https://www.google.com/travel/flights" target="_blank"
+              ><button class="book__now__button">Book Now!</button></a
+            >
+            <hr />
+          </div>
+          <div class="destination__city">
+            <img src="./newImages/germany.jpg" alt="germany" />
+            <h4>Germany</h4>
+            <p>Book flights to Germany price starting $249.</p>
+            <div class="destination__price">
+              <div>
+                <i class="material-icons">place</i> <span>Germany</span>
+              </div>
+              <div>
+                <i class="material-icons destination__icon">paid</i>
+                <span>$249</span>
+              </div>
+            </div>
+            <a href="https://www.google.com/travel/flights" target="_blank"
+              ><button class="book__now__button">Book Now!</button></a
+            >
+            <hr />
+          </div>
+          <div class="destination__city">
+            <img src="./newImages/australia.jpg" alt="australia" />
+            <h4>Australia</h4>
+            <p>Book flights to Australia price starting $729.</p>
+            <div class="destination__price">
+              <div>
+                <i class="material-icons">place</i>
+                <span>Australia</span>
+              </div>
+              <div>
+                <i class="material-icons destination__icon">paid</i>
+                <span>$729</span>
+              </div>
+            </div>
+            <a href="https://www.google.com/travel/flights" target="_blank"
+              ><button class="book__now__button">Book Now!</button></a
+            >
+            <hr />
+          </div>
+          <div class="destination__city">
+            <img src="./newImages/argentina.jpg" alt="argentina" />
+            <h4>Argentina</h4>
+            <p>Book flights to Argentina price starting $199.</p>
+            <div class="destination__price">
+              <div>
+                <i class="material-icons">place</i>
+                <span>Argentina</span>
+              </div>
+              <div>
+                <i class="material-icons destination__icon">paid</i>
+                <span>$199</span>
+              </div>
+            </div>
+            <a href="https://www.google.com/travel/flights" target="_blank"
+              ><button class="book__now__button">Book Now!</button></a
+            >
+            <hr />
+          </div>
+          <div class="destination__city">
+            <img src="./newImages/finland.jpg" alt="finland" />
+            <h4>Finland</h4>
+            <p>Book flights to Finland price starting $49.</p>
+            <div class="destination__price">
+              <div>
+                <i class="material-icons">place</i>
+                <span>Finland</span>
+              </div>
+              <div>
+                <i class="material-icons destination__icon">paid</i>
+                <span>$49</span>
+              </div>
+            </div>
+            <a href="https://www.google.com/travel/flights" target="_blank"
+              ><button class="book__now__button">Book Now!</button></a
+            >
+            <hr />
+          </div>
+          <div class="destination__city">
+            <img src="./newImages/turkey.jpg" alt="turkey" />
+            <h4>Turkey</h4>
+            <p>Book flights to Turkey price starting $479.</p>
+            <div class="destination__price">
+              <div>
+                <i class="material-icons">place</i>
+                <span>Turkey</span>
+              </div>
+              <div>
+                <i class="material-icons destination__icon">paid</i>
+                <span>$479</span>
+              </div>
+            </div>
+            <a href="https://www.google.com/travel/flights" target="_blank"
+              ><button class="book__now__button">Book Now!</button></a
+            >
+            <hr />
+          </div>
+          <div class="destination__city">
+            <img src="./newImages/japan.jpg" alt="japan" />
+            <h4>Japan</h4>
+            <p>Book flights to Japan price starting $849.</p>
+            <div class="destination__price">
+              <div>
+                <i class="material-icons">place</i>
+                <span>Japan</span>
+              </div>
+              <div>
+                <i class="material-icons destination__icon">paid</i>
+                <span>$849</span>
+              </div>
+            </div>
+            <a href="https://www.google.com/travel/flights" target="_blank"
+              ><button class="book__now__button">Book Now!</button></a
+            >
+            <hr />
+          </div>
+          <div class="destination__city">
+            <img src="./newImages/egypt.jpg" alt="egypt" />
+            <h4>Egypt</h4>
+            <p>Book flights to Egypt price starting $749.</p>
+            <div class="destination__price">
+              <div>
+                <i class="material-icons">place</i>
+                <span>Egypt</span>
+              </div>
+              <div>
+                <i class="material-icons">place</i>
+                <span>$749</span>
+              </div>
+            </div>
+            <a href="https://www.google.com/travel/flights" target="_blank"
+              ><button class="book__now__button">Book Now!</button></a
+            >
+            <hr />
+          </div>
+          <button class="all__offers__button">All Offers</button>
+        </div>
+      </div>
+    </section>
+    <!------------- OUR OFFER SECTION ENDS HERE --------->
+
+    <!------------- DOWNLOAD SECTION STARTS HERE --------->
+    <section id="download">
+      <div class="download__section">
+        <h1>Download Our App</h1>
+        <div class="download__container">
+          <div class="download-banner">
+            <img src="./images/iPhone.png" alt="our_app_image" />
+          </div>
+          <div class="download-store">
+            <a
+              href="https://apps.apple.com/tr/developer/apple/id284417353?l=tr"
+              target="_blank"
+            >
+              <img
+                class="apple__store__download"
+                src="./images/appleStore.png"
+                alt="appleStore"
+            /></a>
+            <a href="https://play.google.com/store?hl=tr&gl=US" target="_blank"
+              ><img
+                class="google__play__download"
+                src="./images/googlePlay.png"
+                alt="googlePlay"
+            /></a>
+          </div>
+        </div>
+        <p>Download our app and discover tons of opportunities!</p>
+      </div>
+    </section>
+    <!------------- DOWNLOAD SECTION ENDS HERE --------->
+
+    <!------------- FOOTER SECTION STARTS HERE --------->
+    <section id="footer">
+      <div class="footer__section">
+        <div class="logo">
+          <h2>Tour<span>.els</span></h2>
+          <p>Enjoy your trip with Tourink.</p>
+          <div class="social-media">
+            <a href="https://www.facebook.com/" target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="https://twitter.com/" target="_blank"
+              ><i class="bi bi-twitter"></i
+            ></a>
+            <a href="https://www.instagram.com/" target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </div>
+        </div>
+        <div class="menu">
+          <h5>Menu</h5>
+          <a href="#">Home</a>
+          <a href="#">About Us</a>
+        </div>
+        <div class="booking_plans">
+          <h5>Booking Plans</h5>
+          <a href="#">Personal Trip</a>
+          <a href="#">Group Trip</a>
+        </div>
+        <div class="further__informations">
+          <h5>Further Informations</h5>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+        <div class="get__app">
+          <h5>Get App</h5>
+          <a href="#">App Store</a>
+          <a href="#">Google Play Store</a>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <p>Copyright © 2021 Tourels. All rights reserved.</p>
+      </div>
+    </section>
+    <!------------- FOOTER SECTION ENDS HERE --------->
+    <script src="./script.js"></script>
+  </body>
+</html>
